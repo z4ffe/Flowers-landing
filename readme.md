@@ -1,1 +1,1 @@
-Desgin by Asia Shelkovnikova
+Design by Asia Shelkovnikova
