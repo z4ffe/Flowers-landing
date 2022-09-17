@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Flowers</title>
+</head>
+<body>
+<div class="wrapper">
+    <header class="header" id="header">
+        <nav class="nav">
+            <ul class="nav__list">
+                <li><a href="#footer">О нас</a></li>
+                <li><a href="#delivery">Доставка и оплата</a></li>
+                <li><a href="#footer">Контакты</a></li>
+                <li><a href="#catalogue-anchor">Каталог</a></li>
+            </ul>
+            <div class="nav__menu">
+                <span class="menu__phone"><a href="tel:+79232737167">+7 (923) 273-71-67</a></span>
+                <span class="menu__adress"><a
+                        href="https://yandex.ru/maps/62/krasnoyarsk/house/tsvetochnaya_ulitsa_8/bUsYcQZmSEUOQFtvfXV4cHhhYQ==/?ll=92.716108%2C55.991425&z=16.84"
+                        target="_blank">г. Красноярск, ул. Цветочная, 17</a></span>
+            </div>
+            <div class="nav__control">
+                <div class="cart" id="cart">
+                    <div class="cart__counter" id="cart-counter"></div>
+                </div>
+                <button class="btn_ru" id="btn_ru">Ru</button>
+                <button class="btn_en" id="btn_en">En</button>
+            </div>
+        </nav>
+        <div class="header__main">
+            <h1 class="header__title">Flowers</h1>
+            <h2 class="header__title2">Букетная мастерская</h2>
+            <p class="header__description">Наши букеты подарят море положительных эмоций,<br>
+                ведь цветы – знак внимания, способный надолго поднять настроение</p>
+            <button class="btn-catalogue" id="btn-catalogue">Перейти в каталог</button>
+        </div>
+        <a href="#catalogue-anchor">
+            <button class="header__arrow-btn"></button>
+        </a>
+    </header>
+    <main class="main">
+        <h5 class="main__title" id="catalogue-anchor"> Выберите любой готовый букет или закажите в соответствие с вашими
+            пожеланиями</h5>
+        <div class="main__cards">
+            <div class="card">
+                <img src="./assets/img/card1.png" alt="flowers">
+                <p>Авторские букеты</p>
+                <button>Перейти в каталог</button>
+            </div>
+            <div class="card">
+                <img src="./assets/img/card2.png" alt="flowers">
+                <p>Монобукеты</p>
+                <button>Перейти в каталог</button>
+            </div>
+            <div class="card">
+                <img src="./assets/img/card3.png" alt="flowers">
+                <p>Свадебные букеты</p>
+                <button>Перейти в каталог</button>
+            </div>
+            <div class="card">
+                <img src="./assets/img/card4.png" alt="flowers">
+                <p>Подарочные наборы</p>
+                <button>Перейти в каталог</button>
+            </div>
+        </div>
+        <h5 class="main__title2">Преимущества букетной мастерской <span class="flowers-zapfino">Flowers</span></h5>
+        <div class="main__advantages" id="anchor2">
+            <div class="card__avantages">
+                <div>1</div>
+                <h6>Свежие цветы</h6>
+                <p>Наши букеты будут радовать вас
+                    долгое время</p>
+            </div>
+            <div class="card__avantages">
+                <div>2</div>
+                <h6>Быстрая доставка</h6>
+                <p>Доставка в течение 2х часов
+                    с момента заказа</p>
+            </div>
+            <div class="card__avantages">
+                <div>3</div>
+                <h6>Профессиональные флористы</h6>
+                <p>Наши флористы имеют хороший вкус
+                    и многолетний опыт работы</p>
+            </div>
+            <a href="#footer">
+                <button class="main__arrow-btn"></button>
+            </a>
+        </div>
+        <h5 class="main__title3">Уникальный формат букетной мастерской <span class="flowers-zapfino">Flowers</span><br>
+            соответствует всем стандартам салонов европейского класса</h5>
+        <section class="delivery-pay" id="delivery">
+            <img src="./assets/img/picture-girl-flowers.png" alt="girl-with-flowers">
+            <div class="delivery-pay__description">
+                <h6 class="delivery-pay__title1">Условия доставки</h6>
+                <ul>
+                    <li>в будни и выходные с 9:00 до 21:00 доставка в течение 2х часов</li>
+                    <li>самовывоз по адресу г. Красноярск, ул. Цветочная, 17</li>
+                    <li> регион доставки: г. Красноярск</li>
+                    <li>при заказе на сумму свыше 5000 рублей - доставка бесплатно</li>
+                    <li>подробности уточняются у оператора +7 (923) 273-71-67</li>
+                </ul>
+                <h6 class="delivery-pay__title2">Условия оплаты</h6>
+                <ul>
+                    <li>наличные</li>
+                    <li>банковская карта</li>
+                    <li>перевод на расчётный счёт</li>
+                    <li>электронные средства платежа Qiwi, PayPal, Яндекс.Деньги и др.</li>
+                </ul>
+            </div>
+        </section>
+        <a href="#header">
+            <button class="footer__arrow-btn"></button>
+        </a>
+    </main>
+    <footer class="footer" id="footer">
+        <div class="footer__info">
+            <span class="footer__phone"><a href="tel:+79232737167">+7 (923) 273-71-67</a></span>
+            <span class="footer__adress"><a
+                    href="https://yandex.ru/maps/62/krasnoyarsk/house/tsvetochnaya_ulitsa_8/bUsYcQZmSEUOQFtvfXV4cHhhYQ==/?ll=92.716108%2C55.991425&z=16.84"
+                    target="_blank">г. Красноярск, ул. Цветочная, 17</a></span>
+        </div>
+        <div class="footer__socials">
+            <h5 class="flowers-zapfino">Flowers</h5>
+            <ul>
+                <li><a href="https://web.whatsapp.com/" target="_blank"><img src="./assets/img/svg/whatsapp.svg"
+                                                                             alt="whatsapp"></a></li>
+                <li><a href="https://web.telegram.org/" target="_blank"><img src="./assets/img/svg/telegram.svg"
+                                                                             alt="telegram"></a></li>
+                <li><a href="https://www.instagram.com/" target="_blank"><img src="./assets/img/svg/instagram.svg"
+                                                                              alt="instagram"></a></li>
+                <li><a href="https://www.vk.com/" target="_blank"><img src="./assets/img/svg/vk.svg" alt="vk"></a></li>
+            </ul>
+        </div>
+        <div class="footer__payment">
+            <ul>
+                <li><a href="https://visa.com/" target="_blank"><img src="./assets/img/svg/visa.svg" alt="whatsapp"></a>
+                </li>
+                <li><a href="https://mironline.ru/" target="_blank"><img src="./assets/img/svg/mir.svg" alt="telegram"></a>
+                </li>
+                <li><a href="http://www.mastercard.com/" target="_blank"><img src="./assets/img/svg/maestro.svg"
+                                                                              alt="instagram"></a></li>
+                <li><a href="https://www.mastercard.com/" target="_blank"><img src="./assets/img/svg/mastercard.svg"
+                                                                               alt="vk"></a></li>
+            </ul>
+        </div>
+    </footer>
+</div>
+<script src="./assets/js/script.js"></script>
+</body>
+</html>
